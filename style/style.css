@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(169, 102, 231);
+}
+.texto{
+  margin-top: 30px;
+}
+.texto p{
+    margin-top: 10px;
+    padding: 1px;
+}
+
+.btns-contador{
+    display: flex;
+    border: none;
+    width: 100;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bt-contador {
+    border: 5px solid coral;
+    width: 50px;
+    height: 50px;
+    border-radius:32px ;
+}
+#campoValor{
+    font-size: 20em;
+}
+
+
+
